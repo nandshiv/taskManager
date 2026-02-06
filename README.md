@@ -6,7 +6,7 @@ This project was built as part of a **Full Stack Development Internship skill as
 
 ## 📸 Screenshot
 
-![Website Preview](frontend/preview.png)
+![Website Preview](public/review.png)
 
 ## ✨ Features
 
