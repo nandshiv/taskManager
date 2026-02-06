@@ -1,49 +1,75 @@
-ask Management Application
+## 📋 Overview
 
-A simple full-stack task management app built as part of a Full Stack Development Internship assignment.
+**Task Management Web Application** is a full-stack web application developed by **Shiv Nand** for managing daily tasks efficiently. Users can create tasks, view them in an organized list, update task status, and delete tasks through a clean and responsive interface.
 
-Tech Stack
+This project was built as part of a **Full Stack Development Internship skill assessment**.
 
-Frontend: HTML, CSS, JavaScript
+## 📸 Screenshot
 
-Backend: Node.js, Express
+![Website Preview](frontend/preview.png)
 
-Database: MongoDB
+## ✨ Features
 
-Setup Instructions
-Backend
-cd backend
-npm install
+- **Task Creation**: Create tasks with title, description, and status
+- **Task Listing**: View all tasks in a structured list
+- **Task Status Update**: Mark tasks as pending or completed
+- **Task Deletion**: Delete tasks easily
+- **Persistent Storage**: Tasks stored securely using MongoDB
+- **Responsive Design**: Works across different screen sizes
+- **Simple UX**: Clean and intuitive user interface
 
-Create a .env file inside backend/:
+## 🛠️ Tech Stack
 
-MONGO_URI=mongodb://127.0.0.1:27017/taskmanager
+This project is built using modern web technologies:
 
-Start the server:
+- **Node.js** – JavaScript runtime for backend
+- **Express.js** – Web framework for building REST APIs
+- **MongoDB** – NoSQL database for persistent storage
+- **HTML** – Markup language for frontend structure
+- **CSS** – Styling and layout
+- **JavaScript** – Frontend interactivity and logic
 
-npm start
+## 🚀 Getting Started
 
-Backend runs on:
+### Prerequisites
 
-http://localhost:5000
+Before you begin, ensure you have the following installed:
 
-Frontend
-cd frontend
+- **Node.js** 16.0 or higher
+- **npm** package manager
+- **MongoDB** installed and running locally
 
-Open index.html in a browser.
+### Installation & Setup
 
-API Routes
+1. **Clone the repository**
 
-POST /api/tasks
+   ```bash
+   git clone <your-repository-url>
+   cd task-manager
 
-GET /api/tasks
+   ```
 
-PUT /api/tasks/:id
+2. **Install backend dependencies**
+   ```bash
+   cd backend
+   npm install
+   ```
+3. **Configure environment variables**
 
-DELETE /api/tasks/:id
+   Create a `.env` file inside the `backend` directory:
 
-Notes
+   ```env
+   MONGO_URI=mongodb://127.0.0.1:27017/taskmanager
+   ```
 
-MongoDB must be running locally
+4. **Run the backend server**
+   ```bash
+   npm start
+   ```
+5. **Run the frontend**
 
-Environment variables are not committed
+   Navigate to the frontend directory and open the application:
+
+   ```bash
+   cd ../frontend
+   ```
